@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div data-slide="slide" class="slide hide">
+        <button onclick="modal(0)">1</button>
+        <button onclick="modal(1)">2</button>
+        <button onclick="modal(2)">3</button>
+        <button onclick="modal(3)">4</button>
+        <button onclick="modal(4)">5</button>
+        <div class="slide-items">
+            <img src="img/img1.jpg" alt="Img 1">
+            <img src="img/img2.jpg" alt="Img 2">
+            <img src="img/img3.jpg" alt="Img 3">
+            <img src="img/img4.jpg" alt="Img 4">
+            <img src="img/img1.jpg" alt="Img 5">
+        </div>
+        <nav class="slide-nav">
+            <button class="slide-prev">Anterior</button>
+            <button class="slide-next">Próximo</button>
+        </nav>
+    </div>
+
+    <button onclick="modal(0)">MODAL</button>
+
+    <script src="slide-stories.js"></script>
+</body>
+
+</html>
